@@ -9,11 +9,11 @@
 locale                   : "en-gb"
 title                    : "Home"
 title_separator          : "-"
-name                     : &name "Tibo Geenen"
-description              : &description " A passionate Home Assistant user from Belgium with a knack for tinkering."
-url                      : https://tibogeenen.be # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Arenberg Watermill"
+description              : &description " A historical landmark, rediscovered."
+url                      : https://arenberg-watermill.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "r0667002/r0667002.github.io"
+repository               : "arenberg-watermill/arenberg-watermill.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,15 +80,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Tibo Geenen"
+  name             : "Arenberg Watermill"
   avatar           : "profile.jpg"
-  bio              : "Student in Electrical Engineering: Power Systems & Automation"
+  bio              : "A historical landmark, rediscovered."
   location         : "Leuven, Belgium"
   employer         : "KU Leuven"
   pubmed           :
   googlescholar    :
-  email            : "tibogeenen@gmail.com"
-  researchgate     :  "https://www.researchgate.net/profile/Tibo-Geenen"
+  email            : "arenberg.watermill@gmail.com"
+  researchgate     :
   uri              :
   bitbucket        :
   codepen          :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "r0667002"
+  github           : "arenberg-watermill"
   google_plus      :
   keybase          :
-  instagram        : "internet_of_tibo"
+  instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/tibogeenen/"
+  linkedin         :
   orcid            :
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "tibo_geenen"
+  twitter          :
   vine             :
   weibo            :
   xing             :
