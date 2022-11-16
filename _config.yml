@@ -5,6 +5,8 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
+github: [metadata]
+
 # Site Settings
 locale                   : "en-gb"
 title                    : "Home"
@@ -57,7 +59,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               :
 facebook:
   username               :
   app_id                 :
@@ -96,7 +98,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "arenberg-watermill"
+  github           :
   google_plus      :
   keybase          :
   instagram        :

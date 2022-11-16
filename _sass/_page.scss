@@ -399,3 +399,9 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+figure {
+  display: inline-block;
+  text-align: center;
+  margin: auto; /* adjust as needed */
+}
