@@ -12,16 +12,16 @@ Originally, the subject of this thesis was looking at the economic feasibility o
 
 
 <figure>
-  <figcaption>Front view (photo by Tibo Geenen)</figcaption>
   <img src="/images/watermill_arenberg_3.jpg">
+  <figcaption>Front view (photo by Tibo Geenen)</figcaption>
 </figure>
 
 <figure>
-  <figcaption>Side view (photo from the KUL website)</figcaption>
   <img src="/images/watermill_arenberg_2.jpg">
+  <figcaption>Side view (photo from the KUL website)</figcaption>
 </figure>
 
 <figure>
-  <figcaption>Inside the mill house (photo by Tibo Geenen)</figcaption>
   <img src="/images/watermill_arenberg_inside.jpg">
+  <figcaption>Inside the mill house (photo by Tibo Geenen)</figcaption>
 </figure>
