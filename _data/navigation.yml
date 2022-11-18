@@ -5,3 +5,6 @@ main:
   #
   - title: "Real-time data"
     url: /real-time-data/
+  #
+  - title: "Restoration"
+    url: /restoration/

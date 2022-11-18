@@ -84,7 +84,8 @@ analytics:
 author:
   name             : "Arenberg Watermill"
   avatar           : "profile.jpg"
-  bio              : "A historical landmark, rediscovered."
+  bio              : *description
+  picture          : "Rob Stevens"
   location         : "Leuven, Belgium"
   employer         : "KU Leuven"
   pubmed           :
@@ -115,8 +116,8 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          :
-  wikipedia        :
+  youtube          : true
+  wikipedia        : true
 
 
 # Reading Files
@@ -210,7 +211,7 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
   # _teaching
   - scope:
       path: ""
