@@ -3,6 +3,8 @@ layout: archive
 title: "Purpose"
 permalink: /purpose/
 author_profile: true
+redirect_from:
+  - /arenberg-water-mill/
 ---
 <style>body {text-align: justify}</style>
 
