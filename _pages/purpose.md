@@ -5,6 +5,11 @@ permalink: /purpose/
 author_profile: true
 redirect_from:
   - /arenberg-water-mill/
+  - /arenberg-watermill/
+  - /arenbergwatermill/
+  - /arenberg-watermolen/
+  - /arenberg-water-molen/
+  - /arenbergwatermolen/
 ---
 <style>body {text-align: justify}</style>
 
@@ -19,8 +24,8 @@ Originally, the subject of this thesis was looking at the economic feasibility o
 </figure>
 
 <figure>
-  <img src="/images/watermill_arenberg_2.jpg">
-  <figcaption>Side view (photo from the KUL website)</figcaption>
+  <img src="/images/watermill_arenberg_sideview.jpg">
+  <figcaption>Side view (photo by Tibo Geenen)</figcaption>
 </figure>
 
 <figure>
