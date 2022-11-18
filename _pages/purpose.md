@@ -27,3 +27,5 @@ Originally, the subject of this thesis was looking at the economic feasibility o
   <img src="/images/watermill_arenberg_inside.jpg">
   <figcaption>Inside the mill house (photo by Tibo Geenen)</figcaption>
 </figure>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2KCysotb55A?controls=0" title="Outside view - Arenberg Watermill" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
