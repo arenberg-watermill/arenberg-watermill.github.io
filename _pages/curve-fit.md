@@ -1,17 +1,27 @@
 ---
 layout: archive
 title: "Curve fitting"
-permalink: /rpm-model/
+permalink: /curve-fit/
 author_profile: false
 redirect_from:
   - /model/
   - /rpmmodel/
+  - /rpm-model/
 ---
 <style>body {text-align: justify}</style>
 
+### Goal
+
+To be able to properly estimate the energy production capacity of the mills, it is interesting to create a model of the rotational speed in terms of data that has been recorded over a longer time. This would allow us to go back in time and estimate the rotational speeds based of the other data. In the end, that allows us to do a financial feasibility analysis to answer the age old question: will the mills ever produce energy? Luckily for us, the VMM has been recording water level data at a station close to the mill since 2006.
+
+<figure>
+  <img src="/images/modelfitgraphs/mapwithlegend.png">
+  <figcaption>Location of the watermill and the measuring station</figcaption>
+</figure>
+
 ### Correlation RPM and water level data
 
-The figure below shows the chronological course of water level data (source: [VMM](https://www.waterinfo.be/station/01K08_012)) and the measured RPM of both mills. There is clearly a relation between the two.
+Aligning this data with our own RPM measurements is the first step to finding a good model. The figure below shows the chronological course of water level data (source: [VMM](https://www.waterinfo.be/station/01K08_012)) and the measured RPM of both mills. There is clearly a relation between the two.
 
 <figure>
   <img src="/images/modelfitgraphs/RPM-and-water level-data.png">
@@ -88,4 +98,18 @@ The final model is therefore a quadratic fit for both mills. Performing this on 
 <figure>
   <img src="/images/modelfitgraphs/quadraticfit-alldata-mill2.png">
   <figcaption>Mill 2: quadratic fit all bins</figcaption>
+</figure>
+
+### Traveling back in time
+
+The next step is to make a best and worst case oversight of the rotational speed dating all the way back to 2006. The best case being the curve that yields the highest rotational speeds and the worst case the lowest. Of course, in reality the actual rotational speeds at those times would be somewhere in between these cases.
+
+<figure>
+  <img src="/images/modelfitgraphs/mill1-extrapolate-quadratic.png">
+  <figcaption>Mill 1: Estimated rotational speed over time</figcaption>
+</figure>
+
+<figure>
+  <img src="/images/modelfitgraphs/mill2-extrapolate-quadratic.png">
+  <figcaption>Mill 2: Estimated rotational speed over time</figcaption>
 </figure>

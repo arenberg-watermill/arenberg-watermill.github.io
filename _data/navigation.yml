@@ -13,7 +13,7 @@ main:
     url: /water-level-station/
   #
   - title: "Curve fitting"
-    url: /rpm-model/
+    url: /curve-fit/
   #
   - title: "Restoration"
     url: /restoration/
