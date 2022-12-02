@@ -8,7 +8,7 @@ redirect_from:
 
 <style>body {text-align: justify}</style>
 
-Since the end of the 20th century, the watermill is considered to be a historical landmark. Rightfully so, as it had been a significant industrial tool since the year 1286. After 750 years of service, a full restoration was in order. In the summer of 2020, the watermill was completely restored after a successful crowdfunding campaign raising over € 400 000. This page shows pictures taken by Rob Stevens during the reinstallation process.
+Since the end of the 20th century, the watermill is considered to be a historical landmark. Rightfully so, as it had been a significant industrial tool since the year 1286. After 750 years of service, a full restoration was in order. In the summer of 2020, the watermill was completely restored after a successful crowdfunding campaign raising over € 200 000. The university itself donated the same amount, which (literally) set the wheels in motion to start a full renovation. This page shows pictures taken by Rob Stevens during the reinstallation process.
 
 
 <figure>
