@@ -100,6 +100,13 @@ The final model is therefore a quadratic fit for both mills. Performing this on 
   <figcaption>Mill 2: quadratic fit all bins</figcaption>
 </figure>
 
+The keen observer might have wondered why the curves are not similar for corresponding bins between the mills. In other words: couldn't we have just done the modelling for every bin of one mill to then transform this curve to the corresponding bin of the other mill? Both mills are designed exactly the same (so they should be roughly the same weight and have roughly the same center of gravity), are driven by the same river and just separated by a brick wall. Unfortunately, there seems to be no good linear connection between the rotational speeds of both mills. There seem to be some external factors (e.g. flow of water, wear on axis/blades...) which do not allow for a simple model.
+
+<figure>
+  <img src="/images/modelfitgraphs/RPM1-2-scatter.png">
+  <figcaption>Scatter plot of rotational speeds for both mills</figcaption>
+</figure>
+
 ### Traveling back in time
 
 The next step is to make a best and worst case oversight of the rotational speed dating all the way back to 2006. The best case being the curve that yields the highest rotational speeds and the worst case the lowest. Of course, in reality the actual rotational speeds at those times would be somewhere in between these cases.
