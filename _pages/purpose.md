@@ -17,6 +17,14 @@ redirect_from:
 
 Originally, the subject of this thesis was to investigate the economic feasibility of power production by the watermill. After measuring the actual power capabilities and looking into relevant literature, it soon became clear that this project can never be achieved in a financially responsible manner. Instead, the focus was shifted to a didactic work for other students or interested parties looking to find information on the workings of the watermill, along with real time information. If you happen to come across this site without knowing what the watermill looks like, you can find pictures below!
 
+For good understanding of this website, the first picture shows which mill is meant by Mill 1 and Mill 2.
+
+<figure>
+  <div class="zoom-without-container">
+        <img src="/images/MillAssignment.png">
+  </div>
+  <figcaption>Front view (photo by Rob Stevens)</figcaption>
+</figure>
 
 <figure>
   <div class="zoom-without-container">
