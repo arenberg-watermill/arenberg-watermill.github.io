@@ -10,6 +10,9 @@ redirect_from:
 ---
 <style>body {text-align: justify}</style>
 
+{% include base_path %}
+{% include toc %}
+
 ### Goal
 
 To be able to properly estimate the energy production capacity of the mills, it is interesting to create a model of the rotational speed in terms of data that has been recorded over a longer time. This would allow us to go back in time and estimate the rotational speeds based of the other data. In the end, that allows us to do a financial feasibility analysis to answer the age old question: will the mills ever produce energy? Luckily for us, the VMM has been recording water level data at a station close to the mill since 2006.
@@ -19,7 +22,7 @@ To be able to properly estimate the energy production capacity of the mills, it 
   <figcaption>Location of the watermill and the measuring station</figcaption>
 </figure>
 
-### Correlation RPM and water level data
+### Correlation data
 
 Aligning this data with our own RPM measurements is the first step to finding a good model. The figure below shows the chronological course of water level data (source: [VMM](https://www.waterinfo.be/station/01K08_012)) and the measured RPM of both mills. There is clearly a relation between the two.
 
@@ -47,7 +50,7 @@ The trash rack gathers all the sediment, leafs, branches... and prevents the bla
     <figcaption>Trash rack being cleaned (Picture by Tibo Geenen)</figcaption>
 </figure>
 
-### Fitting a curve
+### Curve fitting
 
 Now the data bins have been found, fitting a curve to the most complete bin of every mill gives insight in the exact relation between the water level and the rotational speed.
 
@@ -107,7 +110,7 @@ The keen observer might have wondered why the curves are not similar for corresp
   <figcaption>Scatter plot of rotational speeds for both mills</figcaption>
 </figure>
 
-### Traveling back in time
+### Extrapolation
 
 The next step is to make a best and worst case oversight of the rotational speed dating all the way back to 2006. The best case being the curve that yields the highest rotational speeds and the worst case the lowest. Of course, in reality the actual rotational speeds at those times would be somewhere in between these cases.
 

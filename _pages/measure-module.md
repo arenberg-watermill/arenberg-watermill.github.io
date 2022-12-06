@@ -9,12 +9,17 @@ redirect_from:
 ---
 <style>body {text-align: justify}</style>
 
+{% include base_path %}
+{% include toc %}
+
 A custom measurement module was made to get the rotational speed of the watermills. This module sends every single RPM value to a Google spreadsheet through a webapp, which in turn is displayed by this website to provide [real-time data](https://arenberg-watermill.github.io/real-time-data/). It contains the following hardware:
 
  - 3D printed case
  - D1 mini (ESP8266 microprocessor) 
  - OLED display
  - Optical switch
+
+### Design and testing
 
 The module was first tested thoroughly in a breadboard setup. The rotational speed is calculated using the time difference between two optical switch triggers. Then it is sent to the spreadsheet to ultimately be displayed on the OLED screen.
 
@@ -36,6 +41,8 @@ Then a case was designed using Fusion 360 and 3D printed.
   </div>
   <figcaption>3D model in Fusion 360</figcaption>
 </figure>
+
+### Final result
 
 Finally, the components were placed in the case and the module was installed inside the mill house.
 
