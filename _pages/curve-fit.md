@@ -175,7 +175,7 @@ This view does not say much, but zooming to the year 2022 and comparing it to th
   <div class="zoom-without-container">
         <img src="/images/modelfitgraphs/mill1-extrapolate-quadratic-most-probable-vs-actual.png">
   </div>
-  <figcaption>Mill 1: Estimated rotational speed over time</figcaption>
+  <figcaption>Mill 1: Estimated and actual RPM in 2022</figcaption>
 </figure>
 
 #### Mill 2
@@ -184,7 +184,7 @@ This view does not say much, but zooming to the year 2022 and comparing it to th
   <div class="zoom-without-container">
         <img src="/images/modelfitgraphs/mill2-extrapolate-quadratic-most-data.png">
   </div>
-  <figcaption>Mill 2: Estimated and actual RPM in 2022</figcaption>
+  <figcaption>Mill 2: Estimated rotational speed over time</figcaption>
 </figure>
 
 Zooming in again shows that the model fits the actual data really well, as there is a single overpowering bin.
