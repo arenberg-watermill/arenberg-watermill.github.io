@@ -27,27 +27,33 @@ To be able to properly estimate the energy production capacity of the mills, it 
 Aligning this data with our own RPM measurements is the first step to finding a good model. The figure below shows the chronological course of water level data (source: [VMM](https://www.waterinfo.be/station/01K08_012)) and the measured RPM of both mills. There is clearly a relation between the two.
 
 <figure>
-  <img src="/images/modelfitgraphs/RPM-and-water level-data.png">
+  <div class="zoom-without-container">
+        <img src="/images/modelfitgraphs/RPM-and-water level-data.png">
+  </div>
   <figcaption>RPM and Water level data - Chronological</figcaption>
 </figure>
 
 Plotting the RPM in function of the water level, shows this connection more clearly and reveals other insights. There are different 'bins' where the data can be put in, depending on the dirt build-up in trash rack placed before the water wheels.
 
 <figure>
-  <img src="/images/modelfitgraphs/AllDataUnfitted-Mill-1.png">
+  <div class="zoom-without-container">
+        <img src="/images/modelfitgraphs/AllDataUnfitted-Mill-1.png">
+  </div>
   <figcaption>Mill 1: Water level vs RPM</figcaption>
 </figure>
 
 <figure>
-  <img src="/images/modelfitgraphs/AllDataUnfitted-Mill-2.png">
+  <div class="zoom-without-container">
+        <img src="/images/modelfitgraphs/AllDataUnfitted-Mill-2.png">
+  </div>
   <figcaption>Mill 2: Water level vs RPM</figcaption>
 </figure>
 
 The trash rack gathers all the sediment, leafs, branches... and prevents the blades from being damaged. Their influence on the RPM is significant, as is their importance to prevent damage. However, making the gaps between the wooden planks larger would be beneficial for rotational speed, without letting too much trash in.
 
 <figure>
-    <img src="/images/modelfitgraphs/trash-rack-cleaning.jpg">
-    <figcaption>Trash rack being cleaned (Picture by Tibo Geenen)</figcaption>
+  <img src="/images/modelfitgraphs/trash-rack-cleaning.jpg">
+  <figcaption>Trash rack being cleaned (Picture by Tibo Geenen)</figcaption>
 </figure>
 
 ### Curve fitting
@@ -59,12 +65,16 @@ Now the data bins have been found, fitting a curve to the most complete bin of e
 A quadratic and cubic fit were performed on the data of mill 1.
 
 <figure>
-  <img src="/images/modelfitgraphs/ModelFit-Mill-1-Most-complete-Quadratic.png">
+  <div class="zoom-without-container">
+        <img src="/images/modelfitgraphs/ModelFit-Mill-1-Most-complete-Quadratic.png">
+  </div>
   <figcaption>Mill 1: quadratic curve fit</figcaption>
 </figure>
 
 <figure>
-  <img src="/images/modelfitgraphs/ModelFit-Mill-1-Most-complete-Cubic.png">
+  <div class="zoom-without-container">
+        <img src="/images/modelfitgraphs/ModelFit-Mill-1-Most-complete-Cubic.png">
+  </div>
   <figcaption>Mill 1: cubic curve fit</figcaption>
 </figure>
 
@@ -78,12 +88,16 @@ A higher water level means more water hitting the blades upstream and thus trans
 The same was done for mill 2.
 
 <figure>
-  <img src="/images/modelfitgraphs/ModelFit-Mill-2-Most-complete-Quadratic.png">
+  <div class="zoom-without-container">
+        <img src="/images/modelfitgraphs/ModelFit-Mill-2-Most-complete-Quadratic.png">
+  </div>
   <figcaption>Mill 2: quadratic curve fit</figcaption>
 </figure>
 
 <figure>
-  <img src="/images/modelfitgraphs/ModelFit-Mill-2-Most-complete-Cubic.png">
+  <div class="zoom-without-container">
+        <img src="/images/modelfitgraphs/ModelFit-Mill-2-Most-complete-Cubic.png">
+  </div>
   <figcaption>Mill 2: cubic curve fit</figcaption>
 </figure>
 
@@ -94,32 +108,49 @@ And the same results were found for this data.
 The final model is therefore a quadratic fit for both mills. Performing this on the other data bins yield the graphs listed below.
 
 <figure>
-  <img src="/images/modelfitgraphs/quadraticfit-alldata-mill1.png">
+  <div class="zoom-without-container">
+        <img src="/images/modelfitgraphs/quadraticfit-alldata-mill1.png">
+  </div>
   <figcaption>Mill 1: quadratic fit all bins</figcaption>
 </figure>
 
 <figure>
-  <img src="/images/modelfitgraphs/quadraticfit-alldata-mill2.png">
+  <div class="zoom-without-container">
+        <img src="/images/modelfitgraphs/quadraticfit-alldata-mill2.png">
+  </div>
   <figcaption>Mill 2: quadratic fit all bins</figcaption>
 </figure>
 
 The keen observer might have wondered why the curves are not similar for corresponding bins between the mills. In other words: couldn't we have just done the modelling for every bin of one mill to then transform this curve to the corresponding bin of the other mill? Both mills are designed exactly the same (so they should be roughly the same weight and have roughly the same center of gravity), are driven by the same river and just separated by a brick wall. Unfortunately, there seems to be no good linear connection between the rotational speeds of both mills. There seem to be some external factors (e.g. flow of water, wear on axis/blades...) which do not allow for a simple model.
 
 <figure>
-  <img src="/images/modelfitgraphs/RPM1-2-scatter.png">
+  <div class="zoom-without-container">
+        <img src="/images/modelfitgraphs/RPM1-2-scatter.png">
+  </div>
   <figcaption>Scatter plot of rotational speeds for both mills</figcaption>
 </figure>
 
 ### Extrapolation
 
-The next step is to make a best and worst case oversight of the rotational speed dating all the way back to 2006. The best case being the curve that yields the highest rotational speeds and the worst case the lowest. Of course, in reality the actual rotational speeds at those times would be somewhere in between these cases.
+The next step is to extrapolate the rotational speed dating all the way back to 2006. An option would be to use the fitted curve from the bin that contains the most data points. For mill 2, this makes a lot of sense as over 70% of the data points belong to the same bin. For mill 1, it is a bit more nuanced.
+
+#### Mill 1
+The data points are a bit more scattered over the bins, but are mostly evenly distributed over bin 2, 3 and 4. Since their respective fitted curves are very similar in shape, the model of bin 3 is chosen to extrapolate with.
 
 <figure>
-  <img src="/images/modelfitgraphs/mill1-extrapolate-quadratic.png">
+  <div class="zoom-without-container">
+        <img src="/images/modelfitgraphs/mill1-extrapolate-quadratic-most-probable.png">
+  </div>
   <figcaption>Mill 1: Estimated rotational speed over time</figcaption>
 </figure>
 
+
+#### Mill 2
+As mentioned before, mill 2 uses the fitted curve of bin 2 as it contains most of the data points.
+
 <figure>
-  <img src="/images/modelfitgraphs/mill2-extrapolate-quadratic.png">
+  <div class="zoom-without-container">
+        <img src="/images/modelfitgraphs/mill2-extrapolate-quadratic-most-data.png">
+  </div>
   <figcaption>Mill 2: Estimated rotational speed over time</figcaption>
 </figure>

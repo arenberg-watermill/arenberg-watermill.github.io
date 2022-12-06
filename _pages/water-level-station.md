@@ -16,7 +16,9 @@ The data showed below is provided by the VMM (Vlaamse Milieu Maatschappij) and s
 The water level is being measured by (elaborate working principle distance sensor...TODO) and monitored by the VMM.
 
 <figure>
-  <img src="/images/vmmstation/water-level-measurement.jpg">
+  <div class="zoom-without-container">
+        <img src="/images/vmmstation/water-level-measurement.jpg">
+  </div>
   <figcaption>Distance sensor that measures the water level</figcaption>
 </figure>
 
@@ -29,10 +31,14 @@ The VMM itself uses the data to prevent the city of Leuven from being flooded. W
 
 <figure>
   <div class="column2">
-    <img src="/images/vmmstation/underwater-gate.jpg" style="width:100%">
+    <div class="zoom-without-container">
+      <img src="/images/vmmstation/underwater-gate.jpg" style="width:100%">
+    </div>
   </div>
   <div class="column2">
-    <img src="/images/vmmstation/emergency-gate.jpg" style="width:100%">
+    <div class="zoom-without-container">
+      <img src="/images/vmmstation/emergency-gate.jpg" style="width:100%">
+    </div>
   </div>
   <figcaption>Underwater- and emergency gate</figcaption>
 </figure>
@@ -41,10 +47,14 @@ The monitoring system can be accessed locally, but also through an online app. T
 
 <figure>
   <div class="column2">
-    <img src="/images/vmmstation/monitor-system.jpg" style="width:100%">
+    <div class="zoom-without-container">
+      <img src="/images/vmmstation/monitor-system.jpg" style="width:100%">
+    </div>
   </div>
   <div class="column2">
-    <img src="/images/vmmstation/monitor-screen.jpg" style="width:100%">
+    <div class="zoom-without-container">
+      <img src="/images/vmmstation/monitor-screen.jpg" style="width:100%">
+    </div>
   </div>
   <figcaption>Local monitoring system</figcaption>
 </figure>

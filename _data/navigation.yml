@@ -6,7 +6,7 @@ main:
   - title: "Real-time data"
     url: /real-time-data/
   #
-  - title: "RPM measurement module"
+  - title: "RPM module"
     url: /measure-module/
   #
   - title: "Water level station"
