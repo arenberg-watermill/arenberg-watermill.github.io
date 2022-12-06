@@ -121,6 +121,32 @@ The final model is therefore a quadratic fit for both mills. Performing this on 
   <figcaption>Mill 2: quadratic fit all bins</figcaption>
 </figure>
 
+Now that the model of every bin is known, it is beneficial to select a single curve. This allows us to easily extrapolate the data later on, without running into a convoluted analysis of the estimated rpm for every bin.
+An option would be to use the fitted curve from the bin that contains the most data points. For mill 2, this makes a lot of sense as over 70% of the data points belong to the same bin. For mill 1, it is a bit more nuanced. The data points are more evenly distributed over the bins, but are mostly evenly distributed over bin 2, 3 and 4. Since their respective fitted curves are very similar in shape, they can be considered to be one and the same bin. This yields the following final equations and graphs:
+
+<figure>
+  <div class="zoom-without-container">
+        <img src="/images/modelfitgraphs/final-model-mill1.png">
+  </div>
+  <figcaption>Mill 1: final model</figcaption>
+</figure>
+
+<figure>
+  <div class="zoom-without-container">
+        <img src="/images/modelfitgraphs/final-model-mill2.png">
+  </div>
+  <figcaption>Mill 2: final model</figcaption>
+</figure>
+
+<figure>
+  <div class="zoom-without-container">
+        <img src="/images/modelfitgraphs/final-model-both-mills.png">
+  </div>
+  <figcaption>Final model - Mill 1 & 2</figcaption>
+</figure>
+
+### Relation mills
+
 The keen observer might have wondered why the curves are not similar for corresponding bins between the mills. In other words: couldn't we have just done the modelling for every bin of one mill to then transform this curve to the corresponding bin of the other mill? Both mills are designed exactly the same (so they should be roughly the same weight and have roughly the same center of gravity), are driven by the same river and just separated by a brick wall. Unfortunately, there seems to be no good linear connection between the rotational speeds of both mills. There seem to be some external factors (e.g. flow of water, wear on axis/blades...) which do not allow for a simple model.
 
 <figure>
@@ -132,10 +158,9 @@ The keen observer might have wondered why the curves are not similar for corresp
 
 ### Extrapolation
 
-The next step is to extrapolate the rotational speed dating all the way back to 2006. An option would be to use the fitted curve from the bin that contains the most data points. For mill 2, this makes a lot of sense as over 70% of the data points belong to the same bin. For mill 1, it is a bit more nuanced.
+The next step is to extrapolate the rotational speed dating all the way back to 2006. The respective final model from [before](#final-model) is used for every mill.
 
 #### Mill 1
-The data points are a bit more scattered over the bins, but are mostly evenly distributed over bin 2, 3 and 4. Since their respective fitted curves are very similar in shape, the model of bin 3 is chosen to extrapolate with.
 
 <figure>
   <div class="zoom-without-container">
@@ -144,7 +169,7 @@ The data points are a bit more scattered over the bins, but are mostly evenly di
   <figcaption>Mill 1: Estimated rotational speed over time</figcaption>
 </figure>
 
-This view does not say much, but zooming to the year 2022 and comparing it to the actual measurements shows that the model is sufficient for mill 1. Because there is no overpowering fit, it was expected that the extrapolated curve would not fit the actual curve perfectly.
+This view does not say much, but zooming to the year 2022 and comparing it to the actual measurements reveals how good the model is. The figure below shows that the model is sufficient for mill 1. Because there is no overpowering single bin, it was expected that the extrapolated curve would not fit the actual curve perfectly.
 
 <figure>
   <div class="zoom-without-container">
@@ -154,16 +179,15 @@ This view does not say much, but zooming to the year 2022 and comparing it to th
 </figure>
 
 #### Mill 2
-As mentioned before, mill 2 uses the fitted curve of bin 2 as it contains most of the data points.
 
 <figure>
   <div class="zoom-without-container">
         <img src="/images/modelfitgraphs/mill2-extrapolate-quadratic-most-data.png">
   </div>
-  <figcaption>Mill 1: Estimated and actual RPM in 2022</figcaption>
+  <figcaption>Mill 2: Estimated and actual RPM in 2022</figcaption>
 </figure>
 
-Zooming in again shows that the model fits the actual data really well, as expected.
+Zooming in again shows that the model fits the actual data really well, as there is a single overpowering bin.
 
 <figure>
   <div class="zoom-without-container">
