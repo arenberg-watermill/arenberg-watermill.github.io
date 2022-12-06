@@ -144,6 +144,14 @@ The data points are a bit more scattered over the bins, but are mostly evenly di
   <figcaption>Mill 1: Estimated rotational speed over time</figcaption>
 </figure>
 
+This view does not say much, but zooming to the year 2022 and comparing it to the actual measurements shows that the model is sufficient for mill 1. Because there is no overpowering fit, it was expected that the extrapolated curve would not fit the actual curve perfectly.
+
+<figure>
+  <div class="zoom-without-container">
+        <img src="/images/modelfitgraphs/mill1-extrapolate-quadratic-most-probable-vs-actual.png">
+  </div>
+  <figcaption>Mill 1: Estimated rotational speed over time</figcaption>
+</figure>
 
 #### Mill 2
 As mentioned before, mill 2 uses the fitted curve of bin 2 as it contains most of the data points.
@@ -152,5 +160,14 @@ As mentioned before, mill 2 uses the fitted curve of bin 2 as it contains most o
   <div class="zoom-without-container">
         <img src="/images/modelfitgraphs/mill2-extrapolate-quadratic-most-data.png">
   </div>
-  <figcaption>Mill 2: Estimated rotational speed over time</figcaption>
+  <figcaption>Mill 1: Estimated and actual RPM in 2022</figcaption>
+</figure>
+
+Zooming in again shows that the model fits the actual data really well, as expected.
+
+<figure>
+  <div class="zoom-without-container">
+        <img src="/images/modelfitgraphs/mill2-extrapolate-quadratic-most-probable-vs-actual.png">
+  </div>
+  <figcaption>Mill 2: Estimated and actual RPM in 2022</figcaption>
 </figure>
