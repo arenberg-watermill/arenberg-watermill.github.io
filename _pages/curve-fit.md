@@ -187,7 +187,7 @@ This view does not say much, but zooming to the year 2022 and comparing it to th
   <figcaption>Mill 2: Estimated rotational speed over time</figcaption>
 </figure>
 
-Zooming in again shows that the model fits the actual data really well, as there is a single overpowering bin.
+Zooming in again shows that the model fits the actual data quite well, as there is a single overpowering bin.
 
 <figure>
   <div class="zoom-without-container">
