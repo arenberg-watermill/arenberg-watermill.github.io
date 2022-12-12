@@ -52,8 +52,17 @@ Plotting the RPM in function of the water level, shows this connection more clea
 The trash rack gathers all the sediment, leafs, branches... and prevents the blades from being damaged. Their influence on the RPM is significant, as is their importance to prevent damage. However, making the gaps between the wooden planks larger would be beneficial for rotational speed, without letting too much trash in.
 
 <figure>
-  <img src="/images/modelfitgraphs/trash-rack-cleaning.jpg">
-  <figcaption>Trash rack being cleaned (Picture by Tibo Geenen)</figcaption>
+  <div class="column2">
+    <div class="zoom-without-container">
+      <img src="/images/modelfitgraphs/trashrack.jpg" style="width:100%">
+    </div>
+  </div>
+  <div class="column2">
+    <div class="zoom-without-container">
+      <img src="/images/modelfitgraphs/trash-rack-cleaning.jpg" style="width:100%">
+    </div>
+  </div>
+  <figcaption>Trash rack being cleaned (Pictures by Tibo Geenen)</figcaption>
 </figure>
 
 ### Curve fitting
