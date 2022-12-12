@@ -19,7 +19,7 @@ To be able to properly estimate the energy production capacity of the mills, it 
 
 <figure>
   <img src="/images/modelfitgraphs/mapwithlegend.png">
-  <figcaption>Location of the watermill and the measuring station</figcaption>
+  <figcaption>Location of the watermill and the measuring station (source: OpenStreetMap)</figcaption>
 </figure>
 
 ### Correlation data
