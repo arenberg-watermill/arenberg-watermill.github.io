@@ -48,3 +48,6 @@ For good understanding of this website, the first picture shows which mill is me
 </figure>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2KCysotb55A?controls=0" title="Outside view - Arenberg Watermill" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AldhaRHCtaM?controls=0" title="Inside view - Arenberg Watermill" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
