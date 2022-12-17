@@ -6,13 +6,13 @@ main:
   - title: "Real-time data"
     url: /real-time-data/
   #
-  - title: "RPM module"
+  - title: "Measurement module"
     url: /measure-module/
   #
   - title: "Water level station"
     url: /water-level-station/
   #
-  - title: "Curve fitting"
+  - title: "RPM"
     url: /curve-fit/
   #
   - title: "Restoration"
