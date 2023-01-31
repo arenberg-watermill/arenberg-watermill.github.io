@@ -1,19 +1,32 @@
 ---
-permalink: /water-level-station/
-title: "Water level station"
+permalink: /site/
+title: "The site"
 author_profile: false
 redirect_from:
+  - /water-level-station/
   - /waterlevelstation/
   - /vmm/
 ---
 <style>body {text-align: justify}</style>
+
+{% include base_path %}
+{% include toc %}
+
+To understand how the power production is influenced by the environment, a site description is needed. This page gives a short intro to the mill site, the possible improvements that are allowed to be made and the upstream VMM station.
+
+# Mill site
+
+## Possible improvements
+
+
+# VMM station
 
 The data showed below is provided by the VMM (Vlaamse Milieu Maatschappij) and shows the water level at station "Uitlaatkunstwerk Egenhoven". The data is used to build the model to predict the rotational speed of the watermills based on the water level of the river, see more [here](https://arenberg-watermill.github.io/rpm-model/).
 
 <iframe width="800" height="550"  src='https://www.waterinfo.be/filestore/apps/kisters/js/share/tsclient.html?ZGF0YVNvdXJjZT1tZXJnZWRQb3J0YWwmcGVyaW9kPVAyRCZzdGF0aW9uX25vPTAxSzA4XzAxMiZnbGlzdD1beyJmaWx0ZXIiOnsidHNfbmFtZSI6IlAuMTV8UHYuMTUiLCJ0c19uYW1lX2xvd3JlcyI6IkRhZ0dlbSIsInN0YXRpb25wYXJhbWV0ZXJfbmFtZSI6IkhhZncgUk8iLCJzdGF0aW9uX25vIjoiMDFLMDhfMDEyIn0sInRlbXBsYXRlIjoidm1tX3N0dXdlbiJ9XQ=='  frameborder="0">Sorry, your browser does not seem to support this iframe</iframe>
 
 
-The water level is being measured by (elaborate working principle distance sensor...TODO) and monitored by the VMM.
+The water level is being measured and monitored by the VMM.
 
 <figure>
   <div class="zoom-without-container">

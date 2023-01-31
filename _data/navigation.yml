@@ -3,17 +3,17 @@ main:
   - title: "Purpose"
     url: /purpose/
   #
-  - title: "Real-time data"
+  - title: "Real-time"
     url: /real-time-data/
   #
-  - title: "Measurement module"
-    url: /measure-module/
-  #
-  - title: "Water level station"
-    url: /water-level-station/
+  - title: "Site"
+    url: /site/
   #
   - title: "RPM"
-    url: /curve-fit/
+    url: /rpm/
+  #
+  - title: "Torque"
+    url: /torque/
   #
   - title: "Restoration"
     url: /restoration/
