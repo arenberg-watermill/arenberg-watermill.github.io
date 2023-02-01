@@ -15,5 +15,8 @@ main:
   - title: "Torque"
     url: /torque/
   #
+  - title: "Power"
+    url: /power/
+  #
   - title: "Restoration"
     url: /restoration/

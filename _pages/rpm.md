@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Curve fitting"
+title: "Rotational speed and model"
 permalink: /rpm/
 author_profile: false
 redirect_from:
@@ -13,6 +13,10 @@ redirect_from:
 
 {% include base_path %}
 {% include toc %}
+
+The rotational speed of the water wheels is logged over a long period of time and then used to create a model that creates a relationship between river parameter data and the speed.
+
+# Measurement module
 
 A custom measurement module was made to get the rotational speed of the watermills. This module sends every single RPM value to a Google spreadsheet through a webapp, which in turn is displayed by this website to provide [real-time data](https://arenberg-watermill.github.io/real-time-data/). It contains the following hardware:
 
@@ -70,7 +74,9 @@ Finally, the components were placed in the case and the module was installed ins
   <figcaption>Optical switch</figcaption>
 </figure>
 
-### Goal
+# Model
+
+## Goal
 
 To be able to properly estimate the energy production capacity of the mills, it is interesting to create a model of the rotational speed in terms of data that has been recorded over a longer time. This would allow us to go back in time and estimate the rotational speeds based of the other data. In the end, that allows us to do a financial feasibility analysis to answer the age old question: will the mills ever produce energy? Luckily for us, the VMM has been recording water level data at a station close to the mill since 2006.
 
@@ -79,7 +85,7 @@ To be able to properly estimate the energy production capacity of the mills, it 
   <figcaption>Location of the watermill and the measuring station (source: OpenStreetMap)</figcaption>
 </figure>
 
-### Correlation data
+## Correlation data
 
 Aligning this data with our own RPM measurements is the first step to finding a good model. The figure below shows the chronological course of water level data (source: [VMM](https://www.waterinfo.be/station/01K08_012)) and the measured RPM of both mills. There is clearly a relation between the two.
 
@@ -122,7 +128,7 @@ The trash rack gathers all the sediment, leafs, branches... and prevents the bla
   <figcaption>Trash rack being cleaned (Pictures by Tibo Geenen)</figcaption>
 </figure>
 
-### Curve fitting
+## Curve fitting
 
 Now the data bins have been found, fitting a curve to the most complete bin of every mill gives insight in the exact relation between the water level and the rotational speed.
 
@@ -169,7 +175,7 @@ The same was done for mill 2.
 
 And the same results were found for this data.
 
-### Final model
+## Final model
 
 The final model is therefore a quadratic fit for both mills. Performing this on the other data bins yield the graphs listed below.
 
@@ -222,11 +228,11 @@ The keen observer might have wondered why the curves are not similar for corresp
   <figcaption>Scatter plot of rotational speeds for both mills</figcaption>
 </figure>
 
-### Extrapolation
+## Extrapolation
 
 The next step is to extrapolate the rotational speed dating all the way back to 2006. The respective final model from [before](#final-model) is used for every mill.
 
-#### Mill 1
+### Mill 1
 
 <figure>
   <div class="zoom-without-container">
@@ -244,7 +250,7 @@ This view does not say much, but zooming to the year 2022 and comparing it to th
   <figcaption>Mill 1: Estimated and actual RPM in 2022</figcaption>
 </figure>
 
-#### Mill 2
+### Mill 2
 
 <figure>
   <div class="zoom-without-container">
