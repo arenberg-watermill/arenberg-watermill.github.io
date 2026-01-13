@@ -19,7 +19,7 @@ Originally, the subject of this thesis was to investigate the economic feasibili
 
 If you want to read the entire thesis, you can
 <u>
-  <a href="https://tibogeenen.be/Thesis_Tibo-Geenen.pdf">download it here.</a>
+  <a href="https://github.com/r0667002/r0667002.github.io/blob/6293a6c3f175bc6d37091cabe52725c8390a6266/Thesis_Tibo-Geenen.pdf">download it here.</a>
 </u>
 
 <figure>
